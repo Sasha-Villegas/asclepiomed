@@ -1,0 +1,58 @@
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: calc(100vh - 4.5rem);
+    background-color: rgb(0, 0, 0);
+}
+
+.titulo{
+    position: absolute;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px #000000;
+    margin: auto;
+    min-width: 340px;
+}
+
+#header .bg-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/public/imgs/hospital.jpg');
+    opacity: .15;
+    min-width: 340px;
+}
+
+.spantitle{
+    color: transparent;
+    -webkit-text-stroke: 0.3px var(--blue-300);
+}
+
+@media screen and (min-width: 550px) {
+
+    .titulo h1{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .titulo h1{
+        font-size: 5rem;
+    }
+    .spantitle{
+        -webkit-text-stroke: 0.1px var(--blue-300);
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .titulo h1{
+        font-size: 5.5rem;
+    }
+}

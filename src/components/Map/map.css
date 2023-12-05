@@ -1,0 +1,39 @@
+.btnflex{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto 0rem auto;
+    align-items: center;
+    min-width: 340px;
+}
+
+.btnflex > p{
+    margin: 0;
+    padding: 0;
+    display: block;
+    min-width: 100px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.map{
+    height: 600px;
+    width: 800px;
+    display: block;
+    margin: 2rem auto;
+    min-width: 340px;
+}
+
+#btn-ubi{
+    background-color: var(--blue-950);
+    padding: .5rem;
+    border: 0;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 2px;
+    z-index: 0;
+    color: white;
+}
+
+#btn-ubi:hover{
+    background-color: var(--blue-600);
+}
